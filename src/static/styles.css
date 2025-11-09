@@ -90,10 +90,26 @@ section h3 {
 }
 
 .participants-list {
-  margin-left: 18px;
+  margin-left: 0;
   margin-bottom: 0;
   color: #333;
   font-size: 15px;
+  padding-left: 0;
+  list-style: none;
+}
+
+.delete-participant {
+  margin-left: 8px;
+  background: none;
+  border: none;
+  color: #c00;
+  cursor: pointer;
+  font-size: 1.1em;
+  padding: 0 4px;
+  line-height: 1;
+}
+.delete-participant:hover {
+  color: #a00;
 }
 
 .no-participants {
